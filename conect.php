@@ -4,9 +4,9 @@
   function conecta(){
 
     $host="localhost";
-    $user="root";
-    $password="lee";
-    $database="wtcs2";
+    $user="";
+    $password="";
+    $database="";
 
     $mysqli = new mysqli($host,$user,$password,$database);
     if ($mysqli->connect_errno) {
